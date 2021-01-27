@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    
+	<meta charset="" />
+    <meta http-equiv="Content-Type" content="" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content=""/>
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />	
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="" />
+    <meta name="Robots" content="">
+    <meta name="AUTHOR" content="">
+    <meta name="COPYRIGHT" content="">
+    <meta name="language" content="">
+    <meta name="RATING" content="">
+	<title>Hogwarts</title>
+	<script src="C:/Users/kelna/Desktop/xamp/htdocs/HarryPotter/js/validacao.js"></script>
+
+    <link rel="shortcut icon" href="images/header.png" />
+	 
+   <link rel="stylesheet" type="text/css" href="C:/Users/kelna/Desktop/xamp/htdocs/HarryPotter/css/style.css" media="screen" />
+
+</head>
+
+<body>
+  <div id="wrapper">
+      
+     <div id="header">
+         <a href="" target="">
+             <img src="C:/Users/kelna/Pictures/Saved Pictures/logo.png" alt="logo" class="dark">
+         </a >     
+        
+       <div id="logo">
+          <h1>HOGWARTS</h1>
+          
+       </div>
+      
+                     
+       <div id="nav">
+         <ul>
+           <li><a href="C:/Users/kelna/Desktop/xamp/htdocs/HarryPotter/harrypotter.html" target="">Hogwarts</a> | </li>
+           <li><a href="#" target="">Escreva-se em Horgwarts</a></li>
+         </ul>
+       </div>
+       <div id="gallery">
+       </div>
+   	 </div>
+   </div>
+   <div>
+
+		<!--label for="nome">Nome</label-->
+		<span class="label">Nome: </span>
+	   	<input type="text" id="nomeid" onsubmit="Limite();" placeholder="" required="required" name="nome" /></br>
+	  	
+	  	<span class="label">Fone: </span>
+	  	<input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" /></br>
+	  	
+	  	<span class="label">Email: </span>
+	  	<input type="email" id="emailid" placeholder="...@mail.com" name="email" /></br></br>
+	  	
+	  	<span class="label">Qual casa gostaria de entrar?: </span></br></br>
+	  	<select id="casaid">
+    	<option value=""></option>
+    	<option value="Grifinoria">Grifinoria</option>
+    	<option value="Sonserina">Sonserina</option>
+    	<option value="Corvinal">Corvinal</option>
+    	<option value="Lufa-lufa">Lufa-lufa</option>
+		</select></br></br>
+
+
+	  	<input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+
+   </div>
+
+</body>
+</html>
